@@ -1,16 +1,71 @@
 ---
-
+import "../styles/global.css"
 ---
 
 <html lang="en">
 	<head>
 		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<!-- <link rel="icon" type="image/svg+xml" href="/favicon.svg" /> -->
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
+		<title>brice.id – Brandon Rice</title>
 	</head>
 	<body>
-		<h1>Astro</h1>
+		<div class="flex flex-col h-screen justify-between py-5 px-5 sm:px-5 md:px-40 xl:px-[15%] 2xl:px-[25%] 4xl:py-10 4xl:px-[30%]">
+			<main class="mb-auto">
+				<h1>Welcome to brice.id</h1>
+				<div class="flex flex-col space-y-8 py-8 leading-loose">
+					<p>
+						My name is Brandon Rice.
+					</p>
+					<div>
+						<p>
+							Below are links to some of my online presences:
+						</p>
+						<ul class="leading-normal flex flex-col list-none">
+							<li class="pt-2.5">
+								<a href="https://x.com/RealBrandonRice">
+									<i class="fa-brands fa-x-twitter"></i>
+									<span>x.com/realbrandonrice (@RealBrandonRice)</span>
+								</a>
+							</li>
+							<li class="pt-2.5">
+								<a href="https://www.snapchat.com/add/realbrandonrice">
+									<i class="fa-brands fa-snapchat"></i>
+									<span>Snapchat (@RealBrandonRice)</span>
+								</a>
+							</li>
+							<li class="pt-2.5">
+								<a href="https://github.com/bjrice13">
+									<i class="fa-brands fa-github"></i>
+									<span>github.com/bjrice13</span>
+								</a>
+							</li>
+						</ul>
+					</div>
+					<div>
+						<p>
+							I also run the following brands:
+						</p>
+						<ul class="list-disc list-inside">
+							<li>
+								<a href="https://letsgophotos.com">
+									<span>Let's Go! Photos (letsgophotos.com)</span>
+								</a>
+							</li>
+							<li>
+								<a href="https://thecityengineer.com">
+									<span>The City Engineer (thecityengineer.com)</span>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</main>
+			<footer class="mx-auto">
+				<p>I miss the old days of the Internet when things were simpler, before the bloat of analytics, data mining, and influencers.</p>
+			</footer>
+		</div>
 	</body>
+
 </html>
